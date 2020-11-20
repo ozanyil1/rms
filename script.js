@@ -13,7 +13,7 @@ document.getElementById("submit").onclick = function(){
         table.removeChild(childNodes[i])
     }
     
-    alert(childNodes.length)
+    
 
     for (i=0;i<rownumber;i++){
         
@@ -60,5 +60,5 @@ document.getElementById("submit").onclick = function(){
         document.getElementById("table").appendChild(tr)
     }
 
-    alert(childNodes.length)
+    
 }
