@@ -1,0 +1,44 @@
+<html>
+    <head>
+        
+        <style>
+            table {
+                border-collapse: collapse;
+                margin:30px auto;
+                visibility: hidden;
+            }
+
+            table td, table th {
+                border: 1px solid black;
+                width: 140px;
+            }
+        </style>
+        
+    </head>
+    <body style="background-color: grey; margin-top: 20px;" >
+        <div style="text-align: center;">
+            <input type="text" id="volume" placeholder="volume" style="margin: 5px;"> <br>
+            <input type="radio" id="long" name="side" value="long">
+            <label for="long">Long</label>
+            <input type="radio" id="short" name="side" value="short">
+            <label for="short">Short</label><br>
+            <input type="text" id="equity" placeholder="equity" style="margin: 5px;"> <br>
+            <input type="text" id="price" placeholder="price" style="margin: 5px;"> <br>
+            <button id="submit" type="submit" style="margin: 5px;">Hesapla</button> <br>
+            <table id="table" style="text-align: center;">
+                <tr>
+                    <th>Volume</th>
+                    <th>Equity</th>
+                    <th>Margin</th>
+                    <th>Free Margin</th>
+                    <th>Current Price</th>
+                    <th>Price required to lose free margin</th>
+                </tr>
+                
+            </table>
+        
+        </div>
+        <script type="text/javascript" src="script.js"></script>   
+    </body>
+    
+</html>
